@@ -1,0 +1,34 @@
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\bin\Debug\net8.0\Repositories.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\bin\Debug\net8.0\BussinessObject.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\bin\Debug\net8.0\BussinessObject.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\bin\Debug\net8.0\Repositories.deps.json
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\bin\Debug\net8.0\Repositories.dll
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\bin\Debug\net8.0\Repositories.pdb
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\bin\Debug\net8.0\BussinessObject.dll
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\bin\Debug\net8.0\DataAccessLayer.dll
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\bin\Debug\net8.0\DataAccessLayer.pdb
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\bin\Debug\net8.0\BussinessObject.pdb
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.csproj.AssemblyReference.cache
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfoInputs.cache
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.AssemblyInfo.cs
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.csproj.CoreCompileInputs.cache
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Reposito.787EC4B2.Up2Date
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.dll
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.pdb
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll

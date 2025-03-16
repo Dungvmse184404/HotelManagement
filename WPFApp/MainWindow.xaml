@@ -1,0 +1,281 @@
+﻿<Window x:Class="WPFApp.MainWindow"
+        xmlns:materialDesign="http://materialdesigninxaml.net/winfx/xaml/themes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WPFApp"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800" Loaded="Window_Loaded">
+    <Window.Resources>
+        <Style x:Key="AddBtStyle" TargetType="Button">
+            <Setter Property="Background" Value="#0099FF"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="120"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="10,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#28AEED"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="EditBtStyle" TargetType="Button">
+            <Setter Property="Background" Value="SeaGreen"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Width" Value="120"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="LightSeaGreen"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+        <Style x:Key="DeleteBtStyle" TargetType="Button">
+            <Setter Property="Background" Value="PaleVioletRed"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10"/>
+            <Setter Property="Width" Value="120"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="Thistle"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+        <Style x:Key="LogoutBtStyle" TargetType="Button">
+            <Setter Property="Background" Value="#FFC107"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Width" Value="120"/>
+            <Setter Property="Height" Value="30"/>
+            <Setter Property="Margin" Value="10,0"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="Button">
+                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
+                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#FFD700"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+
+
+    </Window.Resources>
+
+
+    <StackPanel>
+        <Grid>
+
+
+            <TabControl>
+                <!-- tab Quản lý khách hàng -->
+                <TabItem Header="Customer Management">
+
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="175*"/>
+                            <ColumnDefinition Width="336*"/>
+                            <ColumnDefinition Width="283*"/>
+                        </Grid.ColumnDefinitions>
+                        <DataGrid x:Name="dgCustomer" AutoGenerateColumns="False" Grid.ColumnSpan="3" Margin="0,0,0,170" Grid.RowSpan="2" SelectionChanged="dgCustomer_SelectionChanged" >
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="CustomerId" Binding="{Binding CustomerId}" />
+                                <DataGridTextColumn Header="CustomerFullName" Binding="{Binding CustomerFullName}" />
+                                <DataGridTextColumn Header="Telephone" Binding="{Binding Telephone}" />
+                                <DataGridTextColumn Header="EmailAddress" Binding="{Binding EmailAddress}" />
+                                <DataGridTextColumn Header="CustomerBirthday" Binding="{Binding CustomerBirthday}" />
+                                <DataGridTextColumn Header="CustomerStatus" Binding="{Binding CustomerStatus}" />
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Grid.Row="1" Width="336" Grid.Column="1">
+                            <TextBox x:Name="txtId" Text="Id" IsEnabled="False"/>
+                            <TextBox x:Name="txtName" Text="Name" />
+                            <TextBox x:Name="txtPhone" Text="Phone"/>
+                            <TextBox x:Name="txtEmail" Text="Email"/>
+                            <TextBox x:Name="txtBirthday" Text="Birthday"/>
+                            <TextBox x:Name="txtStatus" Text="Status"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Grid.Row="1" Margin="0,10,0,10" Width="150">
+                            <Button x:Name="btAddCustomer" Content="Add Customer" Margin="0,10" Style="{StaticResource AddBtStyle}" Width="150" Click="btAddCustomer_Click" />
+                            <Button x:Name="btEditCustomer" Content="Edit Customer" Margin="0,10" Style="{StaticResource EditBtStyle}" Width="150" Click="btEditCustomer_Click"/>
+                            <Button x:Name="btDeleteCustomer" Content="Delete Customer" Margin="0,10" Style="{StaticResource DeleteBtStyle}" Width="150" Click="btDeleteCustomer_Click"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Grid.Row="1" Margin="24,10,0,10" Grid.Column="2" Width="249">
+                            <Button x:Name="btSearchCustomer" Content="Search" Margin="0,10" Style="{StaticResource AddBtStyle}" Width="150" Click="tbSearchCustomer_Click" />
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Name" Width="50"/>
+                                <TextBox x:Name="txtSName" Width="160"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Status:" Width="50"/>
+                                <TextBox x:Name="txtSStatus" Width="160" Text="1 or 0 (Default: 1)"
+                                         GotFocus="txtSStatus_GotFocus" LostFocus="txtSStatus_LostFocus"/>
+                            </StackPanel>
+                            <Button x:Name="btLogout" Content="Logout" Margin="0,10" Style="{StaticResource LogoutBtStyle}" Width="150" Click="btLogout_Click"/>
+                        </StackPanel>
+
+                       
+                    </Grid>
+                </TabItem>
+
+                <!-- Quản lý phòng -->
+                <TabItem Header="Room Management">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="174*"/>
+                            <ColumnDefinition Width="337*"/>
+                            <ColumnDefinition Width="283*"/>
+                        </Grid.ColumnDefinitions>
+                        <DataGrid x:Name="dgRoom" AutoGenerateColumns="False" Grid.ColumnSpan="3" SelectionChanged="dgRoom_SelectionChanged" >
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="RoomId" Binding="{Binding RoomId}" />
+                                <DataGridTextColumn Header="RoomNumber" Binding="{Binding RoomNumber}" />
+                                <DataGridTextColumn Header="RoomType" Binding="{Binding RoomType.RoomTypeName}" />
+                                <DataGridTextColumn Header="RoomDetailDescription" Binding="{Binding RoomDetailDescription}" Width="263" />
+                                <DataGridTextColumn Header="RoomMaxCapacity" Binding="{Binding RoomMaxCapacity}" />
+                                <DataGridTextColumn Header="RoomPricePerDay" Binding="{Binding RoomPricePerDay}" />
+                                <DataGridTextColumn Header="RoomStatus" Binding="{Binding RoomStatus}" />
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Grid.Row="1" Width="336" Grid.Column="1">
+                            <TextBox x:Name="txtRoomId" Text="RoomId" IsEnabled="False" />
+                            <TextBox x:Name="txtNumber" Text="RoomNumber" />
+                            <TextBox x:Name="txtDetail" Text="Detail description"/>
+                            <TextBox x:Name="txtCapacity" Text="Capacity"/>
+                            <TextBox x:Name="txtPrice" Text="Price per day"/>
+                            <TextBox x:Name="txtRoomStatus" Text="Status"/>
+                            <ComboBox x:Name="cbRoomType" Text="RoomType" />
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Grid.Row="1" Margin="0,10,0,10" Width="150">
+                            <Button x:Name="btAddRoom" Content="Add New Room" Margin="0,10" Style="{StaticResource AddBtStyle}" Width="150" Click="btAddRoom_Click"/>
+                            <Button x:Name="btEditRoom" Content="Edit Room" Margin="0,10" Style="{StaticResource EditBtStyle}" Width="150" Click="btEditRoom_Click"/>
+                            <Button x:Name="btDeleteRoom" Content="Delete Room" Margin="0,10" Style="{StaticResource DeleteBtStyle}" Width="150" Click="btDeleteRoom_Click"/>
+                        </StackPanel>
+                        <StackPanel Orientation="Vertical" HorizontalAlignment="Left" Grid.Row="1" Margin="24,10,0,10" Grid.Column="2" Width="249">
+                            <Button x:Name="btSearchRoom" Content="Search" Margin="0,10" Style="{StaticResource AddBtStyle}" Width="150" Click="btSearchRoom_Click" />
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Price" Width="50"/>
+                                <TextBox x:Name="txtSRoomPrice" Width="160"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Type" Width="50"/>
+                                <ComboBox x:Name="cbSRoomType" Width="160"/>
+                            </StackPanel>
+                            <StackPanel Orientation="Horizontal">
+                                <Label Content="Status:" Width="50"/>
+                                <TextBox x:Name="txtSRoomStatus" Width="160" Text="1 or 0 (Default: 1)"
+                                         GotFocus="txtSRoomStatus_GotFocus" LostFocus="txtSRoomStatus_LostFocus"/>
+                            </StackPanel>
+                            <Button Content="Logout" Margin="0,10" Style="{StaticResource LogoutBtStyle}" Width="150" Click="btLogout_Click"/>
+                        </StackPanel>
+                    </Grid>
+                </TabItem>
+
+                <!-- Quản lý đặt phòng -->
+                <TabItem Header="Booking Management">
+                    <Grid>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="*"/>
+                            <RowDefinition Height="Auto"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="174*"/>
+                            <ColumnDefinition Width="337*"/>
+                            <ColumnDefinition Width="283*"/>
+                        </Grid.ColumnDefinitions>
+                        <DataGrid x:Name="dgBooking" AutoGenerateColumns="False" Grid.ColumnSpan="3" >
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="BookingReservationId" Binding="{Binding BookingReservationId}" />
+                                <DataGridTextColumn Header="CustomerFullName " Binding="{Binding Customer.CustomerFullName }" />
+                                <DataGridTextColumn Header="BookingDate" Binding="{Binding BookingDate}" />
+                                <DataGridTextColumn Header="TotalPrice" Binding="{Binding TotalPrice}" />
+                                <DataGridTextColumn Header="BookingStatus" Binding="{Binding BookingStatus}" />
+                                <DataGridTemplateColumn Header="Booking Details">
+                                    <DataGridTemplateColumn.CellTemplate>
+                                        <DataTemplate>
+                                            <Expander Header="View Details">
+                                                <DataGrid ItemsSource="{Binding BookingDetails}" AutoGenerateColumns="False">
+                                                    <DataGrid.Columns>
+                                                        <DataGridTextColumn Header="RoomNumber" Binding="{Binding Room.RoomNumber}" />
+                                                        <DataGridTextColumn Header="StartDate" Binding="{Binding StartDate}" />
+                                                        <DataGridTextColumn Header="EndDate" Binding="{Binding EndDate}" />
+                                                        <DataGridTextColumn Header="ActualPrice" Binding="{Binding ActualPrice}" />
+                                                    </DataGrid.Columns>
+                                                </DataGrid>
+                                            </Expander>
+                                        </DataTemplate>
+                                    </DataGridTemplateColumn.CellTemplate>
+                                </DataGridTemplateColumn>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Grid.ColumnSpan="3" Grid.Row="1" Margin="0,10">
+                            <Button Content="Search Room" Margin="25,0" Style="{StaticResource AddBtStyle}" />
+                            <Button Content="Logout" Margin="25,0" Style="{StaticResource LogoutBtStyle}" />
+                        </StackPanel>
+
+                    </Grid>
+                </TabItem>
+
+
+                <TabItem Header="Report">
+                    <Grid>
+                        <Label Content="Start Date:" HorizontalAlignment="Left"/>
+                        <DatePicker x:Name="StartDatePicker" HorizontalAlignment="Left"/>
+                        <Label Content="End Date:" HorizontalAlignment="Center"/>
+                        <DatePicker x:Name="EndDatePicker" HorizontalAlignment="Center"/>
+                        <Button Content="Generate Report" HorizontalAlignment="Right"/>
+                        <DataGrid x:Name="dgReport" AutoGenerateColumns="False"/>
+                    </Grid>
+                </TabItem>
+            </TabControl>
+        </Grid>
+    </StackPanel>
+</Window>

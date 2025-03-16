@@ -1,0 +1,22 @@
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\bin\Debug\net8.0\BussinessObject.deps.json
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\bin\Debug\net8.0\BussinessObject.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\bin\Debug\net8.0\BussinessObject.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.AssemblyInfoInputs.cache
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.AssemblyInfo.cs
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.csproj.CoreCompileInputs.cache
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\obj\Debug\net8.0\refint\BussinessObject.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\BLL\obj\Debug\net8.0\ref\BussinessObject.dll
+E:\Projects\WPFApp\HotelManagementSystem\BLL\bin\Debug\net8.0\BussinessObject.deps.json
+E:\Projects\WPFApp\HotelManagementSystem\BLL\bin\Debug\net8.0\BussinessObject.dll
+E:\Projects\WPFApp\HotelManagementSystem\BLL\bin\Debug\net8.0\BussinessObject.pdb
+E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.AssemblyInfoInputs.cache
+E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.AssemblyInfo.cs
+E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.csproj.CoreCompileInputs.cache
+E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.dll
+E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\refint\BussinessObject.dll
+E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.pdb
+E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\ref\BussinessObject.dll

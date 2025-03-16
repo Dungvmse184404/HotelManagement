@@ -1,0 +1,359 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Projects\\WPFApp\\HotelManagementSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D07E3372-7C64-4B9D-92C2-6A4966C3C958}|WPFApp\\WPFApp.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D07E3372-7C64-4B9D-92C2-6A4966C3C958}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07E3372-7C64-4B9D-92C2-6A4966C3C958}|WPFApp\\WPFApp.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D07E3372-7C64-4B9D-92C2-6A4966C3C958}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD557DE2-387A-4FF8-9C0C-1BABA9CE912D}|Room\\DataAccessLayer.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\room\\models\\roominformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD557DE2-387A-4FF8-9C0C-1BABA9CE912D}|Room\\DataAccessLayer.csproj|solutionrelative:room\\models\\roominformationdao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC492DF2-8E0F-42BA-BA62-EF39BB530F93}|Repositories\\Repositories.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\repositories\\repositories\\roominformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC492DF2-8E0F-42BA-BA62-EF39BB530F93}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories\\roominformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B5D49B-4B65-44F1-934E-3FC63EF29641}|Services\\Services.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\services\\services\\roominformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B5D49B-4B65-44F1-934E-3FC63EF29641}|Services\\Services.csproj|solutionrelative:services\\services\\roominformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD557DE2-387A-4FF8-9C0C-1BABA9CE912D}|Room\\DataAccessLayer.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\room\\models\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD557DE2-387A-4FF8-9C0C-1BABA9CE912D}|Room\\DataAccessLayer.csproj|solutionrelative:room\\models\\bookingdetaildao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B5D49B-4B65-44F1-934E-3FC63EF29641}|Services\\Services.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\services\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B5D49B-4B65-44F1-934E-3FC63EF29641}|Services\\Services.csproj|solutionrelative:services\\services\\customerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC492DF2-8E0F-42BA-BA62-EF39BB530F93}|Repositories\\Repositories.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\repositories\\irepositories\\iroominformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC492DF2-8E0F-42BA-BA62-EF39BB530F93}|Repositories\\Repositories.csproj|solutionrelative:repositories\\irepositories\\iroominformationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B5D49B-4B65-44F1-934E-3FC63EF29641}|Services\\Services.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\services\\iservices\\iroominformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B5D49B-4B65-44F1-934E-3FC63EF29641}|Services\\Services.csproj|solutionrelative:services\\iservices\\iroominformationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A010436-D5A9-4D4B-A37E-C5F53915AA3D}|BLL\\BussinessObject.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\bll\\enities\\roominformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A010436-D5A9-4D4B-A37E-C5F53915AA3D}|BLL\\BussinessObject.csproj|solutionrelative:bll\\enities\\roominformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{DC492DF2-8E0F-42BA-BA62-EF39BB530F93}|Repositories\\Repositories.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\repositories\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{DC492DF2-8E0F-42BA-BA62-EF39BB530F93}|Repositories\\Repositories.csproj|solutionrelative:repositories\\repositories\\customerrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07E3372-7C64-4B9D-92C2-6A4966C3C958}|WPFApp\\WPFApp.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\wpfapp\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D07E3372-7C64-4B9D-92C2-6A4966C3C958}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\customerwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93B5D49B-4B65-44F1-934E-3FC63EF29641}|Services\\Services.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\services\\iservices\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93B5D49B-4B65-44F1-934E-3FC63EF29641}|Services\\Services.csproj|solutionrelative:services\\iservices\\icustomerservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D07E3372-7C64-4B9D-92C2-6A4966C3C958}|WPFApp\\WPFApp.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\wpfapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D07E3372-7C64-4B9D-92C2-6A4966C3C958}|WPFApp\\WPFApp.csproj|solutionrelative:wpfapp\\loginwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BD557DE2-387A-4FF8-9C0C-1BABA9CE912D}|Room\\DataAccessLayer.csproj|e:\\projects\\wpfapp\\hotelmanagementsystem\\room\\models\\roomtypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BD557DE2-387A-4FF8-9C0C-1BABA9CE912D}|Room\\DataAccessLayer.csproj|solutionrelative:room\\models\\roomtypedao.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 1110,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{fbcae063-e2c0-4ab1-a516-996ea3dafb72}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:130:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\WPFApp\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "WPFApp\\MainWindow.xaml",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\WPFApp\\MainWindow.xaml",
+              "RelativeToolTip": "WPFApp\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-16T06:51:15.374Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1412,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{f4fc5ff1-28ef-4b04-ad02-6b298310ccc7}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\WPFApp\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\MainWindow.xaml.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\WPFApp\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "WPFApp\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAACoBAAAAAAAAAIAwwDsBAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T03:53:51.406Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CustomerService.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Services\\Services\\CustomerService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\CustomerService.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Services\\Services\\CustomerService.cs",
+              "RelativeToolTip": "Services\\Services\\CustomerService.cs",
+              "ViewState": "AgIAAC0AAAAAAAAAAAAQwFMAAABBAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:39:46.502Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "BookingDetailDAO.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Room\\Models\\BookingDetailDAO.cs",
+              "RelativeDocumentMoniker": "Room\\Models\\BookingDetailDAO.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Room\\Models\\BookingDetailDAO.cs",
+              "RelativeToolTip": "Room\\Models\\BookingDetailDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:17:36.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CustomerRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Repositories\\Repositories\\CustomerRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repositories\\CustomerRepository.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Repositories\\Repositories\\CustomerRepository.cs",
+              "RelativeToolTip": "Repositories\\Repositories\\CustomerRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAuwCMAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T06:11:05.224Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "CustomerWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\WPFApp\\CustomerWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\CustomerWindow.xaml.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\WPFApp\\CustomerWindow.xaml.cs",
+              "RelativeToolTip": "WPFApp\\CustomerWindow.xaml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T17:14:09.405Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ICustomerService.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Services\\IServices\\ICustomerService.cs",
+              "RelativeDocumentMoniker": "Services\\IServices\\ICustomerService.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Services\\IServices\\ICustomerService.cs",
+              "RelativeToolTip": "Services\\IServices\\ICustomerService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBIAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T07:51:15.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "RoomTypeDAO.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Room\\Models\\RoomTypeDAO.cs",
+              "RelativeDocumentMoniker": "Room\\Models\\RoomTypeDAO.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Room\\Models\\RoomTypeDAO.cs",
+              "RelativeToolTip": "Room\\Models\\RoomTypeDAO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T15:37:39.421Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "LoginWindow.xaml.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\WPFApp\\LoginWindow.xaml.cs",
+              "RelativeDocumentMoniker": "WPFApp\\LoginWindow.xaml.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\WPFApp\\LoginWindow.xaml.cs",
+              "RelativeToolTip": "WPFApp\\LoginWindow.xaml.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAcwCwAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T16:41:33.585Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 1095,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "RoomInformationDAO.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Room\\Models\\RoomInformationDAO.cs",
+              "RelativeDocumentMoniker": "Room\\Models\\RoomInformationDAO.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Room\\Models\\RoomInformationDAO.cs",
+              "RelativeToolTip": "Room\\Models\\RoomInformationDAO.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB8AAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T15:34:29.598Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "RoomInformationService.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Services\\Services\\RoomInformationService.cs",
+              "RelativeDocumentMoniker": "Services\\Services\\RoomInformationService.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Services\\Services\\RoomInformationService.cs",
+              "RelativeToolTip": "Services\\Services\\RoomInformationService.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAYwCIAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T13:15:59.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "RoomInformationRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Repositories\\Repositories\\RoomInformationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\Repositories\\RoomInformationRepository.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Repositories\\Repositories\\RoomInformationRepository.cs",
+              "RelativeToolTip": "Repositories\\Repositories\\RoomInformationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T15:19:14.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IRoomInformationRepository.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Repositories\\IRepositories\\IRoomInformationRepository.cs",
+              "RelativeDocumentMoniker": "Repositories\\IRepositories\\IRoomInformationRepository.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Repositories\\IRepositories\\IRoomInformationRepository.cs",
+              "RelativeToolTip": "Repositories\\IRepositories\\IRoomInformationRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T15:19:03.286Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IRoomInformationService.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Services\\IServices\\IRoomInformationService.cs",
+              "RelativeDocumentMoniker": "Services\\IServices\\IRoomInformationService.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\Services\\IServices\\IRoomInformationService.cs",
+              "RelativeToolTip": "Services\\IServices\\IRoomInformationService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwAkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T15:18:41.728Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "FloatingWindowState": {
+        "Id": "66aae567-126d-4456-bb7a-cfe822e07634",
+        "Display": 1,
+        "X": 770,
+        "Y": 42,
+        "Width": 702,
+        "Height": 825,
+        "WindowState": 0
+      },
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "RoomInformation.cs",
+              "DocumentMoniker": "E:\\Projects\\WPFApp\\HotelManagementSystem\\BLL\\Enities\\RoomInformation.cs",
+              "RelativeDocumentMoniker": "BLL\\Enities\\RoomInformation.cs",
+              "ToolTip": "E:\\Projects\\WPFApp\\HotelManagementSystem\\BLL\\Enities\\RoomInformation.cs",
+              "RelativeToolTip": "BLL\\Enities\\RoomInformation.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBMAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T11:54:26.253Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

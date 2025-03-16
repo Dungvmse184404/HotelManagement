@@ -1,0 +1,176 @@
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\WPFApp.exe
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\WPFApp.deps.json
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\WPFApp.runtimeconfig.json
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\WPFApp.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\WPFApp.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Text.Json.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp_MarkupCompile.cache
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp_MarkupCompile.lref
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.g.resources
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.AssemblyInfoInputs.cache
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.AssemblyInfo.cs
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.csproj.CoreCompileInputs.cache
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.csproj.Up2Date
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\refint\WPFApp.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.genruntimeconfig.cache
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\ref\WPFApp.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\LoginWindow.g.cs
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.csproj.AssemblyReference.cache
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Azure.Core.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Azure.Identity.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.ClientModel.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\BussinessObject.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\DataAccessLayer.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Repositories.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Services.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Services.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\BussinessObject.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Repositories.pdb
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\LoginWindow.baml
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\appsettings.json
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\CustomerWindow.g.cs
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\CustomerWindow.baml
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+C:\Users\dungv\OneDrive\Máy tính\SWP391\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\WPFApp.exe
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\appsettings.json
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\WPFApp.deps.json
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\WPFApp.runtimeconfig.json
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\WPFApp.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\WPFApp.pdb
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Azure.Core.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Azure.Identity.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\MaterialDesignColors.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\MaterialDesignThemes.Wpf.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Data.SqlClient.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Caching.Memory.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Binder.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Configuration.Json.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Options.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Extensions.Primitives.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Abstractions.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Logging.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.IdentityModel.Tokens.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.SqlServer.Server.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Microsoft.Xaml.Behaviors.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.ClientModel.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Diagnostics.DiagnosticSource.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Formats.Asn1.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.IdentityModel.Tokens.Jwt.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.IO.Pipelines.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Memory.Data.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Runtime.Caching.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Text.Encodings.Web.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\System.Text.Json.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\unix\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\Microsoft.Data.SqlClient.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\BussinessObject.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\DataAccessLayer.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Repositories.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Services.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Services.pdb
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\BussinessObject.pdb
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\DataAccessLayer.pdb
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\bin\Debug\net8.0-windows\Repositories.pdb
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.csproj.AssemblyReference.cache
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\CustomerWindow.g.cs
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\LoginWindow.g.cs
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\MainWindow.g.cs
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\App.g.cs
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp_MarkupCompile.cache
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp_MarkupCompile.lref
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\CustomerWindow.baml
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\LoginWindow.baml
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\MainWindow.baml
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.g.resources
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.AssemblyInfoInputs.cache
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.AssemblyInfo.cs
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.csproj.CoreCompileInputs.cache
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.csproj.Up2Date
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\refint\WPFApp.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.pdb
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.genruntimeconfig.cache
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\ref\WPFApp.dll
