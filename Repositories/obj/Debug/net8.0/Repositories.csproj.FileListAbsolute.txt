@@ -32,3 +32,4 @@ E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositor
 E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\refint\Repositories.dll
 E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.pdb
 E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\ref\Repositories.dll
+E:\Projects\WPFApp\HotelManagementSystem\Repositories\obj\Debug\net8.0\Repositories.sourcelink.json

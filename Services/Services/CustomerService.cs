@@ -23,7 +23,7 @@ namespace Repositories.Repositories
         public void DeleteCustomer(Customer customer)
             => _customerRepository.DeleteCustomer(customer);
 
-        public List<Customer> GetCustomer()
+        public List<Customer> GetAllCustomer()
             => _customerRepository.GetCustomer();
 
         public Customer GetCustomerById(int customerID)
@@ -37,13 +37,13 @@ namespace Repositories.Repositories
 
         public void UpdateCustomer(Customer customer)
         {
-            customer = ValidateCustomer(customer);
+            //customer = ValidateCustomer(customer);
             _customerRepository.UpdateCustomer(customer);
         }
-        public bool ValidateCustomer(string key, string password)
+
+        public Customer? LoginCustomer(string key, string password)
         {
-            var customerList = _customerRepository.GetCustomer();
-            return customerList.Any(c =>
+            return _customerRepository.GetCustomer().FirstOrDefault(c =>
                 (c.EmailAddress == key || c.Telephone == key) && c.Password == password);
         }
 
@@ -81,9 +81,9 @@ namespace Repositories.Repositories
         }
 
         public List<Customer> SearchCustomer(string name, byte status)
-            => _customerRepository.SearchCustomers(name, status);
-
-
-
+        {
+            var CustomerList = _customerRepository.GetCustomer();
+           return string.IsNullOrWhiteSpace(name) ? CustomerList.Where(c => c.CustomerStatus == status).ToList() : CustomerList.Where(c => c.CustomerFullName.ToLower().Contains(name.ToLower()) && c.CustomerStatus == status).ToList();
+        }
     }
 }

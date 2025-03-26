@@ -174,3 +174,4 @@ E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\refint\
 E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.pdb
 E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.genruntimeconfig.cache
 E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\ref\WPFApp.dll
+E:\Projects\WPFApp\HotelManagementSystem\WPFApp\obj\Debug\net8.0-windows\WPFApp.sourcelink.json

@@ -33,32 +33,35 @@ namespace WPFApp
 
         private void btnLogin_Click(object sender, RoutedEventArgs e)
         {
-            string key = txtKey.Text;
-            string pass = txtPassword.Password;
+            string key = txtKey.Text.Trim();
+            string pass = txtPassword.Password.Trim();
 
-            var listCustomer = _customerService.GetCustomer();
+            if (string.IsNullOrEmpty(key) || string.IsNullOrEmpty(pass))
+            {
+                MessageBox.Show("Vui lòng nhập đầy đủ thông tin", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                return;
+            }
 
             if (_adminAccountService.ValidateAccount(key, pass))
             {
-                MessageBox.Show("Login as administrator ", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Login as administrator", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                new MainWindow().Show();
+                Close();
+                return;
+            }
 
-                this.Hide();
-                MainWindow mainWindow = new MainWindow();
-                mainWindow.Show();
-            }
-            else if (_customerService.ValidateCustomer(key, pass))
+            var customer = _customerService.LoginCustomer(key, pass);
+            if (customer != null)
             {
-                MessageBox.Show("Login as customer ", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                MessageBox.Show("Login as customer", "Success", MessageBoxButton.OK, MessageBoxImage.Information);
+                new CustomerWindow { _account = customer }.Show();
+                Close();
+                return;
+            }
 
-                this.Hide();
-                CustomerWindow customerWindow = new CustomerWindow();
-                customerWindow.Show();
-            }
-            else
-            {
-                throw new Exception("không tìm thấy tài khoản");
-            }
+            MessageBox.Show("Không tìm thấy tài khoản", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
         }
+
 
         private void btnCancel_Click(object sender, RoutedEventArgs e)
         {

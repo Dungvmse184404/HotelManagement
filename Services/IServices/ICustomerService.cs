@@ -9,13 +9,14 @@ namespace Services.IServices
 {
     public interface ICustomerService
     {
-        List<Customer> GetCustomer();
+        List<Customer> GetAllCustomer();
         Customer GetCustomerById(int customerID);
         void SaveCustomer(Customer customer);
         void UpdateCustomer(Customer customer);
         void DeleteCustomer(Customer customer);
         //-------------function--------------
-        bool ValidateCustomer(string key, string password);
-        List<Customer> SearchCustomer(string name, byte status);
+        public Customer? LoginCustomer(string key, string password);
+        public List<Customer> SearchCustomer(string  name, byte status);
+
     }
 }

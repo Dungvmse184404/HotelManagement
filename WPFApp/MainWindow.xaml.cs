@@ -37,7 +37,7 @@ namespace WPFApp
 
         private List<Customer> LoadCustomers()
         {
-            var customerList = _customerService.GetCustomer();
+            var customerList = _customerService.GetAllCustomer();
             return customerList;
         }
 
@@ -51,7 +51,7 @@ namespace WPFApp
         {
             var bookingResList = _bookingReservationService.GetBookingReservations();
             var bookingDetails = _bookingDetailService.GetBookingDetails();
-            var customerList = _customerService.GetCustomer();
+            var customerList = _customerService.GetAllCustomer();
             foreach (var br in bookingResList)
             {
                 br.Customer = customerList.FirstOrDefault(c => c.CustomerId == br.CustomerId);
@@ -95,7 +95,7 @@ namespace WPFApp
         //-----------------------------------------------------
         public int GetNextCustomerId()
         {
-            var cusList = _customerService.GetCustomer();
+            var cusList = _customerService.GetAllCustomer();
 
             if (cusList.Count == 0) return 1;
 

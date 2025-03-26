@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFApp"
         mc:Ignorable="d"
-        Title="CustomerWindow" Height="450" Width="800">
+        Title="CustomerWindow" Height="450" Width="800" Loaded="Window_Loaded">
     <Window.Resources>
         <Style x:Key="AddBtStyle" TargetType="Button">
             <Setter Property="Background" Value="#0099FF"/>
@@ -97,15 +97,26 @@
                 </Trigger>
             </Style.Triggers>
         </Style>
-
-
     </Window.Resources>
+
     <Grid>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="64,46,0,0" VerticalAlignment="Top"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="64,77,0,0" VerticalAlignment="Top" RenderTransformOrigin="-0.021,-0.284"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="64,139,0,0" VerticalAlignment="Top"/>
-        <Label Content="Label" HorizontalAlignment="Left" Margin="64,108,0,0" VerticalAlignment="Top"/>
+        
+        <DataGrid x:Name="dgRoom" AutoGenerateColumns="False" Grid.ColumnSpan="3" SelectionChanged="dgRoom_SelectionChanged" >
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="RoomId" Binding="{Binding RoomId}" />
+                <DataGridTextColumn Header="RoomNumber" Binding="{Binding RoomNumber}" />
+                
+            </DataGrid.Columns>
+        </DataGrid>
 
-
+        <StackPanel  Grid.Row="1" Width="336" Grid.Column="1">
+            <TextBox x:Name="txtRoomId" Text="RoomId" IsEnabled="False" />
+            <TextBox x:Name="txtNumber" Text="RoomNumber" />
+            <TextBox x:Name="txtDetail" Text="Detail description"/>
+            <TextBox x:Name="txtCapacity" Text="Capacity"/>
+            <TextBox x:Name="txtPrice" Text="Price per day"/>
+            <TextBox x:Name="txtRoomStatus" Text="Status"/>
+            <ComboBox x:Name="cbRoomType" Text="RoomType" />
+        </StackPanel>
     </Grid>
 </Window>
