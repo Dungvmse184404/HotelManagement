@@ -14,7 +14,9 @@ namespace Services.IServices
         void SaveCustomer(Customer customer);
         void UpdateCustomer(Customer customer);
         void DeleteCustomer(Customer customer);
+        void DisableCustomer(Customer customer);
         //-------------function--------------
+        public void ChangePassword(int customerId, string password);
         public Customer? LoginCustomer(string key, string password);
         public List<Customer> SearchCustomer(string  name, byte status);
 

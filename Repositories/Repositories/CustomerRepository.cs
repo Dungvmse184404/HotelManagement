@@ -25,12 +25,12 @@ namespace Repositories.Repositories
             var cus = CustomerDAO.GetCustomerById(customer.CustomerId);
             if (cus != null)
             {
-                cus.CustomerFullName = customer.CustomerFullName;
-                cus.Telephone = customer.Telephone;
-                cus.EmailAddress = customer.EmailAddress;
-                cus.CustomerBirthday = customer.CustomerBirthday;
-                cus.CustomerStatus = customer.CustomerStatus;
-                cus.Password = customer.Password;
+                cus.CustomerFullName = !string.IsNullOrWhiteSpace(customer?.CustomerFullName) ? customer.CustomerFullName : cus.CustomerFullName;
+                cus.Telephone = !string.IsNullOrWhiteSpace(customer?.Telephone) ? customer.Telephone : cus.Telephone;
+                cus.EmailAddress = !string.IsNullOrWhiteSpace(customer?.EmailAddress) ? customer.EmailAddress : cus.EmailAddress;
+                cus.CustomerBirthday = customer?.CustomerBirthday ?? cus.CustomerBirthday;
+                cus.CustomerStatus = customer?.CustomerStatus ?? cus.CustomerStatus;
+                cus.Password = !string.IsNullOrWhiteSpace(customer?.Password) ? customer.Password : cus.Password;
 
                 CustomerDAO.UpdateCustomer(cus);
             }

@@ -20,3 +20,4 @@ E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.dl
 E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\refint\BussinessObject.dll
 E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.pdb
 E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\ref\BussinessObject.dll
+E:\Projects\WPFApp\HotelManagementSystem\BLL\obj\Debug\net8.0\BussinessObject.sourcelink.json

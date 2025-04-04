@@ -10,5 +10,7 @@ namespace Services.IServices
     public interface IBookingReservationService
     {
         List<BookingReservation> GetBookingReservations();
+        void CreateBookingReservation(int customerId);
+        void UpdateTotalPriceAsync(int bookingId, decimal totalPrice);
     }
 }

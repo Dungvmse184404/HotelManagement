@@ -164,10 +164,19 @@ namespace WPFApp
         {
             try
             {
+
                 if (dgCustomer.SelectedItem is Customer cus)
                 {
-                    _customerService.DeleteCustomer(cus);
-                    dgCustomer.ItemsSource = LoadCustomers();
+
+                    var result = MessageBox.Show($"Are you sure you want to delete {cus.CustomerFullName}'s account?",
+                                     "Confirm Deletion",
+                                     MessageBoxButton.YesNo,
+                                     MessageBoxImage.Warning);
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        _customerService.DeleteCustomer(cus);
+                        dgCustomer.ItemsSource = LoadCustomers();
+                    }
                 }
 
             }
@@ -310,7 +319,7 @@ namespace WPFApp
             try
             {
                 RoomInformation room;
-               
+
                 room = CreateRoomInfo();
                 room.RoomId = int.Parse(txtRoomId.Text);
                 if (room == null) return;
@@ -338,8 +347,16 @@ namespace WPFApp
             {
                 if (dgRoom.SelectedItem is RoomInformation room)
                 {
-                    _roomInformationService.DeleteRoomInformation(room);
-                    dgRoom.ItemsSource = LoadRooms();
+                    var result = MessageBox.Show($"Are you sure you want to delete room {room.RoomNumber} ?",
+                                     "Confirm Deletion",
+                                     MessageBoxButton.YesNo,
+                                     MessageBoxImage.Warning);
+                    if (result == MessageBoxResult.Yes)
+                    {
+                        _roomInformationService.DeleteRoomInformation(room);
+                        dgRoom.ItemsSource = LoadRooms();
+                    }
+
                 }
             }
             catch (Exception ex)

@@ -8,10 +8,18 @@
         Title="LoginWindow" Height="450" Width="800">
     <Window.Resources>
         <BlurEffect x:Key="BlurEffect" Radius="10"/>
+
+        <Style x:Key="LabelStyle" TargetType="TextBlock">
+            <Setter Property="Padding" Value="0,2,0,0"/>
+            <Setter Property="Foreground" Value="DarkGray"/>
+            <Setter Property="FontSize" Value="14"/>
+            <Setter Property="FontWeight" Value="Medium"/>
+            <Setter Property="FontFamily" Value="Montserrat"/>
+        </Style>
     </Window.Resources>
 
     <Grid>
-        
+
         <Border CornerRadius="10" BorderThickness="2" Opacity="0.95" HorizontalAlignment="Left" Width="800">
             <Border.BorderBrush>
                 <LinearGradientBrush StartPoint="0,0" EndPoint="1,1">
@@ -25,72 +33,56 @@
             <Border.Background>
                 <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
                     <GradientStop Color="#4A90E2" Offset="0.0"/>
-                    <GradientStop Color="#D4145A" Offset="1.0"/>
+                    <GradientStop Color="#f542c2" Offset="1.0"/>
                 </LinearGradientBrush>
             </Border.Background>
-            
+
             <Grid>
                 <Grid.Background>
-        <VisualBrush>
-            <VisualBrush.Visual>
-                <Border Background="Black" Opacity="0.5">
-                    <Border.Effect>
-                        <BlurEffect Radius="10"/>
-                    </Border.Effect>
+                    <VisualBrush>
+                        <VisualBrush.Visual>
+                            <Border Background="Black" Opacity="0.5">
+                                <Border.Effect>
+                                    <BlurEffect Radius="10"/>
+                                </Border.Effect>
+                            </Border>
+                        </VisualBrush.Visual>
+                    </VisualBrush>
+                </Grid.Background>
+                <Border Width="270" CornerRadius="15" Background="White" Margin="248,10,248,10"  Style="{StaticResource FloatContainer}">
+                    <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="250" >
+
+                        <TextBlock Text="LOGIN" Foreground="DarkGray" FontSize="24" FontWeight="Light" 
+                            FontFamily="Montserrat" TextAlignment="Center" Margin="0,10,0,20"/>
+
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                            <Image Source="/Icons/mail.png" Width="16" Height="16" Margin="0,0,5,0"/>
+                            <TextBlock Text="Email" Style="{StaticResource LabelStyle}"/>
+                        </StackPanel>
+                        <TextBox x:Name="txtKey" FontSize="12" Foreground="Gray"  CaretBrush="White" FontFamily="Montserrat"
+                            BorderBrush="DarkGray" BorderThickness="0,0,0,2" Margin="0 8 0 0" Height="18" Background="Transparent"/>
+
+                        <StackPanel Orientation="Horizontal" VerticalAlignment="Center" Margin="0,15,0,0">
+                            <Image Source="/Icons/lock.png" Width="16" Height="16" Margin="0,0,5,0"/>
+                            <TextBlock Text="Password" Style="{StaticResource LabelStyle}"/>
+                        </StackPanel>
+                        <PasswordBox x:Name="txtPassword" FontSize="14" Foreground="Gray" CaretBrush="LightGray" FontFamily="Montserrat"
+                                BorderBrush="DarkGray" BorderThickness="0,0,0,2" Margin="0 8 0 0" Height="18" Background="Transparent"/>
+
+
+                        <Button x:Name="btnLogin" Content="LOGIN"  Margin="0,20,0,10"
+                            Style="{StaticResource ButtonShadow}" 
+                            Background="#0099FF" 
+                            Click="btnLogin_Click"/>
+
+                        <Button x:Name="btnCancel" Content="CANCEL" Margin="0,0,0,10"
+                            Style="{StaticResource ButtonShadow}" 
+                            Background="#DA34AE" 
+                            Click="btnCancel_Click"/>           
+
+
+                    </StackPanel>
                 </Border>
-            </VisualBrush.Visual>
-        </VisualBrush>
-    </Grid.Background>
-                <StackPanel Orientation="Vertical" HorizontalAlignment="Center" VerticalAlignment="Center" Width="350" >
-                    
-                    <TextBlock Text="LOGIN WINDOW" Foreground="White" FontSize="24" FontWeight="Light" FontFamily="Montserrat" TextAlignment="Center" Margin="0,10,0,20"/>
-
-                    <TextBlock Text="Email" Foreground="White" FontSize="12" FontWeight="Medium" FontFamily="Montserrat"/>
-                    <TextBox x:Name="txtKey" FontSize="14" Foreground="White" CaretBrush="White" BorderBrush="DarkGray" BorderThickness="0,0,0,2" Height="30" Background="Transparent"/>
-
-                    <TextBlock Text="Password" Foreground="White" FontSize="12" FontWeight="Medium" FontFamily="Montserrat" Margin="0,15,0,0"/>
-                    <PasswordBox x:Name="txtPassword" FontSize="14" Foreground="White" CaretBrush="LightGray" BorderBrush="DarkGray" BorderThickness="0,0,0,2" Height="30" Background="Transparent"/>
-
-                    <Button x:Name="btnLogin" Content="LOGIN" Foreground="White" FontSize="14" FontFamily="Montserrat" Cursor="Hand" Margin="0,20,0,10"  Click="btnLogin_Click">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="Background" Value="#0099FF"/>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="#28AEED"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-                        <Button.Template>
-                            <ControlTemplate TargetType="Button">
-                                <Border Width="200" Height="40" CornerRadius="20" Background="{TemplateBinding Background}">
-                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                                </Border>
-                            </ControlTemplate>
-                        </Button.Template>
-                    </Button>
-
-                    <Button x:Name="btnCancel" Content="CANCEL" Foreground="White" FontSize="14" FontFamily="Montserrat" Cursor="Hand" Click="btnCancel_Click">
-                        <Button.Style>
-                            <Style TargetType="Button">
-                                <Setter Property="Background" Value="LightSeaGreen"/>
-                                <Style.Triggers>
-                                    <Trigger Property="IsMouseOver" Value="True">
-                                        <Setter Property="Background" Value="SeaGreen"/>
-                                    </Trigger>
-                                </Style.Triggers>
-                            </Style>
-                        </Button.Style>
-                        <Button.Template>
-                            <ControlTemplate TargetType="Button">
-                                <Border Width="200" Height="40" CornerRadius="20" Background="{TemplateBinding Background}">
-                                    <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                                </Border>
-                            </ControlTemplate>
-                        </Button.Template>
-                    </Button>
-                </StackPanel>
             </Grid>
         </Border>
     </Grid>

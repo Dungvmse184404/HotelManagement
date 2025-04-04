@@ -85,5 +85,18 @@ namespace Repositories.Repositories
             var CustomerList = _customerRepository.GetCustomer();
            return string.IsNullOrWhiteSpace(name) ? CustomerList.Where(c => c.CustomerStatus == status).ToList() : CustomerList.Where(c => c.CustomerFullName.ToLower().Contains(name.ToLower()) && c.CustomerStatus == status).ToList();
         }
+
+        public void ChangePassword(int customerId, string password)
+        {
+            var customer = _customerRepository.GetCustomerById(customerId);
+            customer.Password = password;
+            _customerRepository.UpdateCustomer(customer);
+        }
+
+        public void DisableCustomer(Customer customer)
+        {
+            customer.CustomerStatus = 0;
+            UpdateCustomer(customer);
+        }
     }
 }

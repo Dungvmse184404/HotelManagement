@@ -54,7 +54,7 @@ namespace Services.Services
                 throw new ArgumentException("Số phòng tối đa 50 ký tự.");
             foreach (var r in RoomList)
             {
-                if (r.RoomNumber == room.RoomNumber && r.RoomId != room.RoomId)
+                if (r.RoomNumber == room.RoomNumber || r.RoomId == room.RoomId)
                     throw new ArgumentException("Số phòng đã tồn tại trong hệ thống.");
             }
 
@@ -78,5 +78,8 @@ namespace Services.Services
 
         public List<RoomInformation> SearchRooms(decimal? price, int? typeId, byte? status)
            => _roomInformationRepository.SearchRooms(price, typeId, status);
+
+
+        //public void GenerateRoomId
     }
 }

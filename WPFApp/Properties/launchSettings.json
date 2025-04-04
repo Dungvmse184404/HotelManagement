@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "WPFApp": {
+      "commandName": "Project"
+    },
+    "Profile 1": {
+      "commandName": "Project"
+    }
+  }
+}

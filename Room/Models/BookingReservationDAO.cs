@@ -25,5 +25,60 @@ namespace DataAccessLayer.Models
             return listBookingReservation;
         }
 
+        public static BookingReservation GetBookingReservationById(int reservationId)
+        {
+            try
+            {
+                using var context = new FuminiHotelManagementContext();
+                return context.BookingReservations.FirstOrDefault(b => b.BookingReservationId == reservationId);
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public static void AddBookingReservation(BookingReservation booking)
+        {
+            try
+            {
+                using var context = new FuminiHotelManagementContext();
+                context.BookingReservations.Add(booking);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public static void UpdateBookingReservation(BookingReservation booking)
+        {
+            try
+            {
+                using var context = new FuminiHotelManagementContext();
+                context.Entry<BookingReservation>(booking).State = Microsoft.EntityFrameworkCore.EntityState.Modified;
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
+
+        public static void DeleteBookingReservation(BookingReservation booking)
+        {
+            try
+            {
+                using var context = new FuminiHotelManagementContext();
+                var deleting = context.BookingReservations.FirstOrDefault(b => b.BookingReservationId == booking.BookingReservationId);
+                context.BookingReservations.Remove(deleting);
+                context.SaveChanges();
+            }
+            catch (Exception ex)
+            {
+                throw new Exception(ex.Message);
+            }
+        }
     }
 }

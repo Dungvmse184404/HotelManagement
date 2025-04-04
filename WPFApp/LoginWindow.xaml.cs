@@ -1,4 +1,5 @@
-﻿using Repositories.Repositories;
+﻿using DAL.Enities;
+using Repositories.Repositories;
 using Services.IServices;
 using Services.Services;
 using System;
@@ -24,6 +25,8 @@ namespace WPFApp
     {
         private readonly IAdminAccountService _adminAccountService;
         private readonly ICustomerService _customerService;
+
+        
         public LoginWindow()
         {
             InitializeComponent();
@@ -38,7 +41,7 @@ namespace WPFApp
 
             if (string.IsNullOrEmpty(key) || string.IsNullOrEmpty(pass))
             {
-                MessageBox.Show("Vui lòng nhập đầy đủ thông tin", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
+                MessageBox.Show("Please, full fill all infomation!", "Warning", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return;
             }
 
@@ -59,7 +62,7 @@ namespace WPFApp
                 return;
             }
 
-            MessageBox.Show("Không tìm thấy tài khoản", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            MessageBox.Show("Wrong email or password!", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
         }
 
 

@@ -10,5 +10,8 @@ namespace Repositories.IRepositories
     public interface IBookingReservationRepository
     {
         List<BookingReservation> GetBookingReservations();
+        BookingReservation GetBookingReservationById(int reservationId);
+        void AddBookingReservation(BookingReservation booking);
+        void UpdateBookingReservation(BookingReservation booking);
     }
 }

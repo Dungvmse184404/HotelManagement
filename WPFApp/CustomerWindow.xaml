@@ -5,118 +5,383 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPFApp"
         mc:Ignorable="d"
-        Title="CustomerWindow" Height="450" Width="800" Loaded="Window_Loaded">
-    <Window.Resources>
-        <Style x:Key="AddBtStyle" TargetType="Button">
-            <Setter Property="Background" Value="#0099FF"/>
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Width" Value="120"/>
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Margin" Value="10,0"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
-                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#28AEED"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-
-        <Style x:Key="EditBtStyle" TargetType="Button">
-            <Setter Property="Background" Value="SeaGreen"/>
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Padding" Value="10"/>
-            <Setter Property="Width" Value="120"/>
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
-                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="LightSeaGreen"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-
-        <Style x:Key="DeleteBtStyle" TargetType="Button">
-            <Setter Property="Background" Value="PaleVioletRed"/>
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Padding" Value="10"/>
-            <Setter Property="Width" Value="120"/>
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
-                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="Thistle"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-        <Style x:Key="LogoutBtStyle" TargetType="Button">
-            <Setter Property="Background" Value="#FFC107"/>
-            <Setter Property="Foreground" Value="White"/>
-            <Setter Property="FontWeight" Value="Bold"/>
-            <Setter Property="Width" Value="120"/>
-            <Setter Property="Height" Value="30"/>
-            <Setter Property="Margin" Value="10,0"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="Button">
-                        <Border CornerRadius="15" Background="{TemplateBinding Background}">
-                            <ContentPresenter VerticalAlignment="Center" HorizontalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#FFD700"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
-    </Window.Resources>
+        Title="CustomerWindow" Height="600" Width="1100" Loaded="Window_Loaded"
+        Background="Transparent">
 
     <Grid>
-        
-        <DataGrid x:Name="dgRoom" AutoGenerateColumns="False" Grid.ColumnSpan="3" SelectionChanged="dgRoom_SelectionChanged" >
-            <DataGrid.Columns>
-                <DataGridTextColumn Header="RoomId" Binding="{Binding RoomId}" />
-                <DataGridTextColumn Header="RoomNumber" Binding="{Binding RoomNumber}" />
-                
-            </DataGrid.Columns>
-        </DataGrid>
+        <Border CornerRadius="10" BorderThickness="3" Background="White">
+            <Border.BorderBrush>
+                <LinearGradientBrush StartPoint="0,0" EndPoint="1,0">
+                    <GradientStop Color="#0099FF" Offset="0"/>
+                    <GradientStop Color="#DA34AE" Offset="0.75"/>
+                    <GradientStop Color="#FF60B1E7" Offset="1"/>
+                    <GradientStop Color="#FF596FDD" Offset="0.309"/>
+                    <GradientStop Color="#FF8C57CA" Offset="0.484"/>
+                </LinearGradientBrush>
+            </Border.BorderBrush>
+            <Grid VerticalAlignment="Bottom" >
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="*" />
+                    <RowDefinition Height="Auto" />
+                </Grid.RowDefinitions>
 
-        <StackPanel  Grid.Row="1" Width="336" Grid.Column="1">
-            <TextBox x:Name="txtRoomId" Text="RoomId" IsEnabled="False" />
-            <TextBox x:Name="txtNumber" Text="RoomNumber" />
-            <TextBox x:Name="txtDetail" Text="Detail description"/>
-            <TextBox x:Name="txtCapacity" Text="Capacity"/>
-            <TextBox x:Name="txtPrice" Text="Price per day"/>
-            <TextBox x:Name="txtRoomStatus" Text="Status"/>
-            <ComboBox x:Name="cbRoomType" Text="RoomType" />
-        </StackPanel>
+                <Border CornerRadius="0 0 10 10" Grid.Row="1"  >
+                    <Border.Background>
+                        <LinearGradientBrush StartPoint="0,1" EndPoint="1,0">
+                            <GradientStop Color="#4A90E2" Offset="0.0"/>
+                            <GradientStop Color="#f542c2" Offset="1.0"/>
+                        </LinearGradientBrush>
+                    </Border.Background>
+                    <StackPanel x:Name="taskBar" Orientation="Horizontal" HorizontalAlignment="Center" Margin="20 10" MouseDown="taskBar_MouseDown">
+                        <Border Width="40" Height="40" CornerRadius="4" Background="#fff" Margin="12 0" x:Name="ViewHomePage" MouseDown="ViewHomePage_MouseDown" >
+                            <Image Source="/Icons/home.png" Width="30" Height="30" />
+                        </Border>
+                        <Border Width="40" Height="40" CornerRadius="4" Background="#fff" Margin="12 0" x:Name="ViewBooking" MouseDown="ViewBooking_MouseDown">
+                            <Image Source="/Icons/book.png" Width="30" Height="30" />
+                        </Border>
+                        <Border Width="40" Height="40" CornerRadius="4" Background="#fff" Margin="12 0" x:Name="ViewSearch" MouseDown="ViewSearch_MouseDown">
+                            <Image Source="/Icons/search.png" Width="30" Height="30" />
+                        </Border>
+                        <Border Width="40" Height="40" CornerRadius="4" Background="#fff" Margin="12 0" x:Name="ViewProfile" MouseDown="ViewProfile_MouseDown">
+                            <Image Source="/Icons/person.png" Width="30" Height="30" />
+                        </Border>
+                        <Border Width="40" Height="40" CornerRadius="4" Background="#fff" Margin="12 0">
+                            <Image Source="/Icons/logout.png" Width="30" Height="30" x:Name="logoutBtn" MouseDown="logoutBtn_MouseUp"/>
+                        </Border>
+                    </StackPanel>
+                </Border>
+
+                <Image Source="/Assets/bg1.png" Stretch="UniformToFill" Effect="{StaticResource BackgroundBlurEffect}"/>
+
+                <ScrollViewer x:Name="homeTable" Grid.Column="1" VerticalScrollBarVisibility="Visible" Visibility="Hidden" >
+
+                    <Canvas Width="900" Height="800">
+                        <Border Height="200" Width="200" Canvas.Left="113" Canvas.Top="50" CornerRadius="100">
+                            <Image Source="/Assets/Hotel4.png" Stretch="Uniform" Margin="-69,42,-35,-32"/>
+                        </Border>
+                        <Border Height="200" Width="200" Canvas.Left="135" Canvas.Top="300">
+                            <Image Source="/Assets/Hotel3.png" Margin="-22,-67,-102,32"/>
+                        </Border>
+
+                        <Border CornerRadius="10" BorderThickness="1" BorderBrush="#D3D3D3" Padding="10" Canvas.Left="497" Canvas.Top="50"
+                                Height="412" Width="390" HorizontalAlignment="Center" VerticalAlignment="Center">
+                            <Border CornerRadius="10" BorderThickness="1" BorderBrush="#D3D3D3" Background="White" Padding="15"  Opacity="0.9">
+                                <StackPanel>
+                                    <TextBlock FontSize="28" FontWeight="Bold" Foreground="#BC3CCC" HorizontalAlignment="Center" Margin="0 0 0 10" FontFamily="Playfair Display"
+                                               Text="HOTEL BOOKING" />
+                                    <TextBlock FontSize="26" FontWeight="Light" Foreground="#9E34F4" HorizontalAlignment="Center" Margin="0 0 0 10" FontFamily="Playfair Display"
+                                               Text="Your Perfect Stay Awaits"/>
+                                    <TextBlock Text="Welcome to our hotel booking service! Whether you're traveling for leisure or business, we help you find the best accommodations with ease and comfort. Enjoy a hassle-free experience and make your journey unforgettable."
+                                            Foreground="Black" Width="300" TextWrapping="Wrap" FontSize="14" Margin="10" FontFamily="Playfair Display"/>
+                                    <TextBlock Text="Book your stay with us today and unlock exclusive discounts, top-tier services, and premium amenities. With a wide range of hotels, from luxury resorts to budget-friendly stays, we ensure you have the perfect home away from home."
+                                            Foreground="Black" Width="300" TextWrapping="Wrap" FontSize="14" Margin="10" FontFamily="Playfair Display"/>
+
+
+                                </StackPanel>
+                            </Border>
+                        </Border>
+                    </Canvas>
+                </ScrollViewer>
+
+                
+                <!-- sth Table -->
+                <Grid x:Name="reservationTable" Visibility="Visible" >
+                    <ListBox x:Name="BookedList" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="395"  Grid.Column="1" Margin="0 10" BorderThickness="0" SelectionChanged="roomList_SelectionChanged" Background="Transparent" >
+                        <ListBox.ItemTemplate>
+                            <DataTemplate>
+                                <StackPanel Grid.Row="1" Background="Transparent"  >
+                                    <Grid>
+                                        <Rectangle Fill="Black" Opacity="0.5" RadiusX="10" RadiusY="11" Margin="0 5" />
+                                        <Border BorderThickness="1" BorderBrush="#DDD" CornerRadius="10" Padding="8" Margin="0 5" >
+
+                                            <Grid>
+                                                <Grid.ColumnDefinitions>
+                                                    <ColumnDefinition Width="120"/>
+                                                    <ColumnDefinition Width="*"/>
+                                                    <ColumnDefinition Width="150"/>
+                                                </Grid.ColumnDefinitions>
+                                                <Image Source="/Assets/Hotel3.png" Stretch="UniformToFill" Grid.Column="0"/>
+
+                                                <StackPanel Grid.Column="1" Margin="26 0" >
+                                                    <TextBlock Text="{Binding RoomType.RoomTypeName}" FontSize="18" FontWeight="Bold" Foreground="#DA34AE"  Margin="0 2"/>
+                                                    <TextBlock Text="{Binding RoomType.TypeDescription}" 
+                                   FontSize="12" Foreground="White" 
+                                   TextWrapping="Wrap"
+                                   TextTrimming="CharacterEllipsis"
+                                   Width="400" />
+                                                </StackPanel>
+
+                                                <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" >
+                                                    <TextBlock Text="Price per night" FontWeight="Bold"  Foreground="#DA34AE" FontSize="15" />
+                                                    <TextBlock Text="{Binding RoomPricePerDay}" FontWeight="Light" TextAlignment="Center" Foreground="#DA34AE" Margin="6"/>
+                                                </StackPanel>
+                                            </Grid>
+                                        </Border>
+                                    </Grid>
+                                </StackPanel>
+                            </DataTemplate>
+                        </ListBox.ItemTemplate>
+                    </ListBox>
+
+                </Grid>
+
+                    <!-- booking Table -->
+                <Grid x:Name="bookingTable" Visibility="Hidden" >
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="500"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+
+
+                    <Border Style="{StaticResource FloatContainer}" BorderThickness="1" BorderBrush="LightGray"  Background="White" Opacity="0.9">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="Auto"/>
+                                <RowDefinition Height="*"/>
+                                <RowDefinition Height="60"/>
+                                <RowDefinition Height="46"/>
+                            </Grid.RowDefinitions>
+
+                            <Image Source="/Assets/Hotel3.png" Stretch="UniformToFill" Grid.Row="0"/>
+
+                            <ScrollViewer x:Name="detailTab" Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                                <StackPanel Margin="10">
+                                    <TextBlock Foreground="Black">
+                                        <Run Text="Room Number: " FontWeight="Bold"/>
+                                        <Run x:Name="txtRoomNumber" Text="{Binding RoomNumber}" Foreground="Gray"/>
+                                    </TextBlock>
+                                    <TextBlock Foreground="Black">
+                                        <Run Text="Type: " FontWeight="Bold"/>
+                                        <Run x:Name="txtRoomType" Text="{Binding RoomType.RoomTypeName}" Foreground="Gray"/>
+                                    </TextBlock>
+                                    <TextBlock Foreground="Black">
+                                        <Run Text="Room Capacity: " FontWeight="Bold"/>     
+                                        <Run x:Name="txtRoomCapacity" Text="{Binding RoomMaxCapacity}" Foreground="Gray"/>
+                                    </TextBlock>
+                                    <TextBlock Foreground="Black" TextWrapping="Wrap" >
+                                        <Run Text="Detail: " FontWeight="Bold"/>
+                                        <Run x:Name="txtRoomDetail" Text="{Binding RoomType.TypeDescription}" Foreground="Gray"/>
+                                    </TextBlock>
+                                    <TextBlock Foreground="Black" TextWrapping="Wrap" >
+                                        <Run Text="Description: " FontWeight="Bold"/>
+                                        <Run x:Name="txtRoomDescription" Text="{Binding RoomDetailDescription}" Foreground="Gray"/>
+                                    </TextBlock>
+                                </StackPanel>
+                            </ScrollViewer>
+
+
+                            <Grid Grid.Row="2">
+
+                                <Grid Grid.Row="2" Margin="0">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="*" />
+                                        <ColumnDefinition Width="*" />
+                                    </Grid.ColumnDefinitions>
+                                    <TextBlock x:Name="checkInWarntext" Text="choses start date.." Visibility="Collapsed" Foreground="Red" Grid.Column="0"/>
+                                    
+                                    <StackPanel Grid.Column="0" Margin="5 0" VerticalAlignment="Bottom">
+                                        <TextBlock Text="Check-in Date" FontWeight="Bold"/>
+                                        <DatePicker x:Name="checkInDate" SelectedDate="{Binding CheckInDate}" />
+                                    </StackPanel>
+                                    <TextBlock x:Name="checkOutWarntext" Text="choses end date.." Visibility="Collapsed" Foreground="Red"  Grid.Column="1"/>
+                                    
+                                    <StackPanel Grid.Column="1" Margin="5 0" VerticalAlignment="Bottom">
+                                        <TextBlock Text="Check-out Date" FontWeight="Bold"/>
+                                        <DatePicker x:Name="checkOutDate" SelectedDate="{Binding CheckOutDate}" />
+                                    </StackPanel>
+                                </Grid>
+
+                            </Grid>
+
+                            <Grid Grid.Row="3">
+                                <Button x:Name="bookRoom" Content="Book Now"  Style="{StaticResource ButtonShadow}" Background="#FF8C57CA"
+                                    Click="bookRoom_Click" Margin="50,6,50,0"/>
+                            </Grid>
+
+                        </Grid>
+                    </Border>
+
+                    <StackPanel Grid.Column="1">
+                        <Border x:Name="searchRoom" Style="{StaticResource FloatContainer}" BorderThickness="2" BorderBrush="DarkGray" Margin="10,18,10,10" CornerRadius="5" Background="White" >
+                            <Grid Height="20" >
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="*" />
+                                    <ColumnDefinition Width="auto" />
+                                </Grid.ColumnDefinitions>
+                                <TextBlock x:Name="textSearch" MouseDown="textSearch_MouseDown" Style="{StaticResource PlaceHolder}"
+                                         Text="Tell us your type ... " Grid.Column="0"  VerticalAlignment="Center"/>
+                                <TextBox x:Name="txtSearchBar" TextChanged="txtSearchBar_TextChanged"  Style="{StaticResource textBox}" 
+                                         Grid.Column="0" VerticalAlignment="Center" />
+                                <Image x:Name="searchBtn" MouseDown="searchBtn_MouseDown" Source="/Icons/search.png" Grid.Column="1" Margin="0,-5,-5,-5" />
+                            </Grid>
+                        </Border>
+
+                        <!-- comboBox -->
+                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0,5,0,0">
+                            <ComboBox x:Name="roomTypeCB" Width="150" Margin="5,0,5,0"
+                                 ItemsSource="{Binding RoomTypes}" Foreground="Black"
+                                 DisplayMemberPath="RoomTypeName"
+                                 SelectedIndex="-1" >
+                                <ComboBoxItem IsEnabled="False" Content="Choose room type..." />
+                            </ComboBox>
+
+                            <ComboBox x:Name="capacityCB" Width="150" Margin="5,0,5,0"
+                                  SelectedIndex="-1" >
+                                <ComboBoxItem IsEnabled="False" Content="Choose capacity..." />
+                                <ComboBoxItem Content="3 People" />
+                                <ComboBoxItem Content="4 People" />
+                                <ComboBoxItem Content="5 People" />
+                            </ComboBox>
+                        </StackPanel>
+
+                        <ListBox x:Name="roomList" ScrollViewer.VerticalScrollBarVisibility="Visible" Height="395"  Grid.Column="1" Margin="0 10" BorderThickness="0" SelectionChanged="roomList_SelectionChanged" Background="Transparent" >
+                            <ListBox.ItemTemplate>
+                                <DataTemplate>
+                                    <StackPanel Grid.Row="1" Background="Transparent"  >
+                                        <Grid>
+                                            <Rectangle Fill="Black" Opacity="0.5" RadiusX="10" RadiusY="11" Margin="0 5" />
+                                            <Border BorderThickness="1" BorderBrush="#DDD" CornerRadius="10" Padding="8" Margin="0 5" >
+
+                                                <Grid>
+                                                    <Grid.ColumnDefinitions>
+                                                        <ColumnDefinition Width="120"/>
+                                                        <ColumnDefinition Width="*"/>
+                                                        <ColumnDefinition Width="150"/>
+                                                    </Grid.ColumnDefinitions>
+                                                    <Image Source="/Assets/Hotel3.png" Stretch="UniformToFill" Grid.Column="0"/>
+
+                                                    <StackPanel Grid.Column="1" Margin="26 0" >
+                                                        <TextBlock Text="{Binding RoomType.RoomTypeName}" FontSize="18" FontWeight="Bold" Foreground="#DA34AE"  Margin="0 2"/>
+                                                        <TextBlock Text="{Binding RoomType.TypeDescription}" 
+                                                           FontSize="12" Foreground="White" 
+                                                           TextWrapping="Wrap"
+                                                           TextTrimming="CharacterEllipsis"
+                                                           Width="400" />
+                                                    </StackPanel>
+
+                                                    <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center" Grid.Column="2" >
+                                                        <TextBlock Text="Price per night" FontWeight="Bold"  Foreground="#DA34AE" FontSize="15" />
+                                                        <TextBlock Text="{Binding RoomPricePerDay}" FontWeight="Light" TextAlignment="Center" Foreground="#DA34AE" Margin="6"/>
+                                                    </StackPanel>
+                                                </Grid>
+                                            </Border>
+                                        </Grid>
+                                    </StackPanel>
+                                </DataTemplate>
+                            </ListBox.ItemTemplate>
+                        </ListBox>
+                    </StackPanel>
+                </Grid>
+
+                <!-- Profile table -->
+                <Grid x:Name="profileTable" Visibility="Hidden" >
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="300"/>
+                        <ColumnDefinition Width="*"/>
+                    </Grid.ColumnDefinitions>
+                    <Border Style="{StaticResource FloatContainer}" BorderThickness="1" BorderBrush="LightGray"  Background="White" Opacity="0.9">
+                        <Grid>
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="180"/>
+                                <RowDefinition Height="*"/>
+                            </Grid.RowDefinitions>
+                            <StackPanel VerticalAlignment="Bottom">
+                                <Image x:Name="myImage" Source="/Icons/frame.png" Height="100" Grid.Row="0" Margin="5" />
+                                <Button Content="Change Avatar"  Width="100" Height="20" Margin="0 5" Style="{StaticResource ButtonShadow}"
+                                        Background="Transparent"  Foreground="#9E34F4" Click="Button_Click"/>
+                            </StackPanel>
+                            <StackPanel Grid.Column="0" VerticalAlignment="Top" Margin="10 10" Grid.Row="1">
+                                <Button Content="Edit account" Width="200" Height="40" Margin="10" Style="{StaticResource ButtonShadow}" Background="ForestGreen" Click="editAccountbtn_Click" />
+                                <Button Content="Change password" Width="200" Height="40" Margin="10" Style="{StaticResource ButtonShadow}" Background="CornflowerBlue" Click="changePassbtn_Click"  />
+
+                                <!--  fixing -->
+
+                                <Border x:Name="txtOldPassword" BorderThickness="1" BorderBrush="Gray" CornerRadius="5" Width="200" Height="35" Margin="0 12 0 2" Visibility="Hidden">
+                                    <Grid >
+                                        <TextBlock x:Name="PasswordText" Text="Your password..." Style="{StaticResource PlaceHolder}" MouseDown="PasswordText_MouseDown"/>
+                                        <PasswordBox x:Name="txtPassword" Style="{StaticResource textBox}" GotFocus="txtPassword_GotFocus" LostFocus="txtPassword_LostFocus"  />
+                                    </Grid>
+                                </Border>
+                                <TextBlock x:Name="pwWarning" Margin="20 0" Text="Incorrect password!" Visibility="Hidden" Foreground="Red"/>
+                                <Button Content="Delete account" Width="200" Height="40" Margin="0 28 0 0" Style="{StaticResource ButtonShadow}" Background="MediumVioletRed" Click="DeleteAccont_Click" />
+                            </StackPanel>
+                        </Grid>
+                    </Border>
+
+
+                    <Canvas Grid.Column="1">
+                        <TextBlock Text="YOUR PROFILE" Style="{StaticResource title}" Canvas.Left="240" Canvas.Top="10" />
+
+                        <StackPanel Canvas.Left="80" Canvas.Top="130" >
+                            <Label Content="Full name" Style="{StaticResource label}"/>
+                            <Border BorderThickness="1" BorderBrush="Gray" CornerRadius="5" Width="270" Height="35" Background="White">
+                                <TextBox x:Name="txtFullName"  Text="Your full name..." Style="{StaticResource textBox}" VerticalContentAlignment="Center" IsEnabled="False"/>
+                            </Border>
+                        </StackPanel>
+
+                        <StackPanel Canvas.Left="500" Canvas.Top="230" >
+                            <Label Content="Date of birth" Style="{StaticResource label}" />
+                            <Border BorderThickness="1" BorderBrush="Gray" CornerRadius="5" Width="200" Height="35" Background="White">
+                            <DatePicker x:Name="calbirthDate" IsEnabled="False" VerticalAlignment="Center" HorizontalAlignment="Center"
+                                SelectedDate="{Binding birthDate}"
+                                Width="200" Height="35" Padding="7"/>
+                            </Border>
+
+                        </StackPanel>
+
+                        <StackPanel Canvas.Left="80" Canvas.Top="230" >
+                            <Label Content="Your Email" Style="{StaticResource label}"/>
+                            <Border BorderThickness="1" BorderBrush="Gray" CornerRadius="5" Width="360" Height="35" Background="White">
+                                <TextBox x:Name="txtProfileEmail" Text="Example@email.com" Style="{StaticResource textBox}" VerticalContentAlignment="Center" IsEnabled="False"/>
+                            </Border>
+                        </StackPanel>
+
+                        <StackPanel Canvas.Left="430" Canvas.Top="130">
+                            <Label Content="Phone number" Style="{StaticResource label}"/>
+                            <Border BorderThickness="1" BorderBrush="Gray" CornerRadius="5" Width="270" Height="35" Background="White">
+                                <TextBox x:Name="txtPhoneNumber" Text="Your phone number..." Style="{StaticResource textBox}" VerticalContentAlignment="Center"  IsEnabled="False"/>
+                            </Border>
+                        </StackPanel>
+
+
+                        <StackPanel x:Name="changePass" Canvas.Left="80" Canvas.Top="330"  Visibility="Collapsed">
+                            <Border BorderThickness="1" BorderBrush="Gray" CornerRadius="5" Width="270" Height="35" Background="White">
+                                <Grid>
+                                    <TextBlock x:Name="NewPassText" Text="New password..." Style="{StaticResource PlaceHolder}" MouseDown="NewPassText_MouseDown"   />
+                                    <PasswordBox x:Name="txtNewPass" Style="{StaticResource textBox}" LostFocus="txtNewPass_LostFocus" GotFocus="txtNewPass_GotFocus"  />
+                                </Grid>
+                            </Border>
+                            <Border BorderThickness="1" BorderBrush="Gray" CornerRadius="5" Width="270" Height="35" Margin="0 10 0 0" Background="White" >
+                                <Grid>
+                                    <TextBlock x:Name="ConfirmPassText" Text="Confirm password..." Style="{StaticResource PlaceHolder}" MouseDown="ConfirmPassText_MouseDown" />
+                                    <PasswordBox x:Name="txtConfirmPass" Style="{StaticResource textBox}" GotFocus="txtConfirmPass_GotFocus" LostFocus="txtConfirmPass_LostFocus"  />
+                                </Grid>
+                            </Border>
+                            <TextBlock x:Name="confirmPassWarning" Text="Password doesn't match!" Visibility="Collapsed" Foreground="Red" />
+                            <TextBlock x:Name="confirmPassNotice" Text="Password changed successfully!" Visibility="Collapsed" Foreground="LimeGreen"/>
+                            <TextBlock x:Name="emptyPassNotice" Text="Missing password!" Visibility="Collapsed" Foreground="Red" />
+                            <TextBlock x:Name="emptyConfirmNotice" Text="Comfirm password is empty!" Visibility="Collapsed" Foreground="Red" />
+                            
+                            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 6 0 0" >
+                                <Button x:Name="savebtn" Content="Save" Width="120" Height="35" Margin="0 0 18 0" Background="CornflowerBlue" Foreground="White" Style="{StaticResource Button1}" Click="savebtn_Click" />
+                                <Button x:Name="cancelbtn" Content="Cancel" Width="120" Height="35"  Background="Black" Foreground="White" Opacity="0.6" Style="{StaticResource Button1}" Click="cancelbtn_Click"/>
+                            </StackPanel>
+                            
+                        </StackPanel>
+
+                    </Canvas>
+
+
+                </Grid>
+
+
+
+            </Grid>
+        </Border>
+
     </Grid>
 </Window>
