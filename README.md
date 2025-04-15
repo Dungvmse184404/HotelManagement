@@ -2,7 +2,7 @@
 
 This is my personal project – a Windows desktop application for hotel booking management, built mainly to pass the course :P
 
-> **Note:** Ps: This app is under development. Some features may not work or are incomplete. I'm still working on it!
+> **Ps:** This app is under development. Some features may not work or are incomplete. I'm still working on it!
 
 ## 🛠️ Technologies Used
 
