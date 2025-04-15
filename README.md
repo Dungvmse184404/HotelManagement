@@ -2,9 +2,7 @@
 
 This is my personal project – a Windows desktop application for hotel booking management, built mainly to pass the course 😄
 
-> **Note:** This app is still under development. Some features may not work or are incomplete. I'm working on it!
-
----
+> **Note:** This app is under development. Some features may not work or are incomplete. I'm still working on it!
 
 ## 🛠️ Technologies Used
 
@@ -12,8 +10,6 @@ This is my personal project – a Windows desktop application for hotel booking 
 - WPF (Windows Presentation Foundation)
 - MVVM pattern (partial)
 - SQL Server (or local database)
-
----
 
 ## 🚀 How to Run
 
